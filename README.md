@@ -1,9 +1,10 @@
 
-# Peridot
-A fully featured Vue 2.6 PWA boilerplate
-![Screenshot](./docs/readme_resources/homepage.png)
+# AAO
+A discord based 4P match scheduling PWA for PUBG clans.
 
-## Features:
+![Screenshot](./docs/readme_resources/screenshot_aao_app.png)
+
+## Codebase Features:
 * Progressive Web App (PWA) with Service Worker
 * Code splitting and async component/route loading
 * Automatic hot-reload in development
