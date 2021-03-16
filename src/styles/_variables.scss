@@ -51,12 +51,13 @@ $stickyNavHeight: 0px;
 li{
     padding: 0;
     margin: 0;
-}
+} 
 /* List */
 ul {
-    counter-reset: index;  
+    counter-reset: index;
     padding: 0;
-    // max-width: 90%;
+    max-width: 600px;
+    margin: auto !important;
   }
   
   /* List element */
@@ -70,7 +71,8 @@ ul {
   }
   
   li img{
-    margin: 5px
+    margin: 5px;
+    width: 45px;
   }
   
   /* Element counter */
