@@ -45,7 +45,9 @@ $stickyNavHeight: 0px;
   font-size: 0.9rem !important;
   margin-top: -1.4555rem !important;
 }
-
+.buttons{
+  justify-content: center !important;
+}
 li{
     padding: 0;
     margin: 0;
@@ -54,11 +56,12 @@ li{
 ul {
     counter-reset: index;  
     padding: 0;
-    max-width: 300px;
+    // max-width: 90%;
   }
   
   /* List element */
   li {
+    justify-content: center;
     counter-increment: index; 
     display: flex;
     align-items: center;

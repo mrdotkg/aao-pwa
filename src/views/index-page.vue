@@ -3,7 +3,7 @@
     <section class="section">
       <div class="container">
         <div class="columns is-mobile">
-          <div class="column">
+          <div class="column has-text-centered">
             <h1 class="title is-size-2">🄰🄰🄾</h1>
             <h2 class="subtitle is-size-5">𝗟𝗲𝘁❜𝘀 𝗽𝗹𝗮𝘆 𝗳𝗲𝘄 𝗴𝗮𝗺𝗲𝘀 𝘁𝗼𝗱𝗮𝘆.</h2>
             <div class="buttons">
