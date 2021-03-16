@@ -50,8 +50,8 @@ module.exports = {
     },
   },
   pwa: {
-    name: "Peridot",
-    themeColor: "#4DBA87",
+    name: "Aao",
+    themeColor: "#FFDD57",
     msTileColor: "#000000",
     appleMobileWebAppStatusBarStyle: "black",
   },
