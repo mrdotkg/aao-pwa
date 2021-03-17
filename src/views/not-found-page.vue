@@ -2,6 +2,7 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title">404 Not Found</h1>
+      <a class="has-text-warning" href="/">Go to app home..</a>
     </div>
   </div>
 </template>

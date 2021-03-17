@@ -81,68 +81,103 @@ $link-invert: $primary-invert;
 $link-focus-border: $primary;
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-a,
-a:visited,
-a:hover {
-  text-decoration: none;
-}
-
 #app {
-  margin: 0;
+  background-color: black !important;
+  color: wheat;
+}
+
+.title {
+  font-weight: 400 !important;
+  color: wheat !important;
+}
+
+.subtitle {
+  color: wheat !important;
+  font-size: 0.9rem !important;
+  margin-top: -1.4555rem !important;
+}
+.buttons {
+  justify-content: center !important;
+  .buttons:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+}
+#app {
+  min-height: 100vh !important;
+}
+.column {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.columns:last-child {
+  margin-bottom: 0px !important;
+}
+
+.columns {
+  margin: 0px !important;
+}
+
+.buttons:not(:last-child) {
+  margin-bottom: 0px !important;
+}
+
+li {
   padding: 0;
-  z-index: 1;
+  margin: 0;
+}
+
+ul {
+  counter-reset: index;
+  max-height: 100vh;
+  overflow-y: auto;
+  max-width: 550px;
+  margin: auto !important;
+}
+
+li {
+  justify-content: center;
+  counter-increment: index;
   display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  min-height: 94vh;
-  min-height: calc(100vh - #{$stickyNavHeight + 2px});
+  align-items: center;
+  padding: 12px 0 !important;
+  box-sizing: border-box;
 }
 
-#appContent {
-  flex-grow: 1;
-}
-
-.fadePage-enter-active,
-.fadePage-leave-active {
-  transition: opacity 0.1s;
-}
-.fadePage-enter,
-.fadePage-leave-to {
-  opacity: 0;
-}
-
-// current route link
-.router-link-active {
-  color: $blue;
+li::before {
+  content: "00 AM -- : -- 00 PM";
+  font-size: 0.8rem;
+  text-align: center;
   font-weight: bold;
+  min-width: 50px;
+  max-width: 60px;
+  padding-right: 12px;
+  font-variant-numeric: tabular-nums;
+  align-self: flex-start;
+  background-image: linear-gradient(to bottom, aquamarine, orangered);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-.formulate-input {
-  input {
-    font-size: 1em;
-    padding: 8px;
-    width: 100%;
-  }
+li + li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-  .formulate-input-errors {
-    margin-top: 5px;
-    color: red;
-  }
+li img {
+  margin: 5px;
+  width: 45px;
+}
+
+ul.blurr > li {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  // width: 100px;
+  // height: 100px;
+  background-color: transparent;
+
 }
 </style>
