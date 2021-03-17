@@ -81,9 +81,24 @@ $link-invert: $primary-invert;
 $link-focus-border: $primary;
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
-#app {
+
+body,
+#app,
+#appContent {
   background-color: black !important;
-  color: wheat;
+  color: wheat !important;
+}
+.card {
+  border-radius: 0;
+}
+.card-header-title {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  color: wheat !important;
+}
+
+.card-content {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: wheat !important;
 }
 
 .title {
@@ -135,7 +150,7 @@ ul {
   margin: auto !important;
 }
 
-li {
+ul li {
   justify-content: center;
   counter-increment: index;
   display: flex;
@@ -144,7 +159,7 @@ li {
   box-sizing: border-box;
 }
 
-li::before {
+ul.schedule li::before {
   content: "00 AM -- : -- 00 PM";
   font-size: 0.8rem;
   text-align: center;
@@ -160,16 +175,16 @@ li::before {
   -webkit-background-clip: text;
 }
 
-li + li {
+ul li + li {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-li img {
+ul.schedule li img {
   margin: 5px;
-  width: 45px;
+  width: 50px;
 }
 
-ul.blurr > li {
+ul.schedule.blurr > li {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);

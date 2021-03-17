@@ -6,134 +6,281 @@
           <h1 class="title is-size-1">🄰🄰🄾</h1>
           <h2 class="subtitle is-size-5">𝗟𝗲𝘁❜𝘀 𝗽𝗹𝗮𝘆 𝗳𝗲𝘄 𝗴𝗮𝗺𝗲𝘀 𝘁𝗼𝗱𝗮𝘆.</h2>
           <div class="buttons">
-            <a
-              class="button is-warning"
-              href="https://discord.com/api/oauth2/authorize?client_id=820665887513247794&redirect_uri=https%3A%2F%2Faao.netlify.app%2F&response_type=code&scope=identify"
-            >
-              TEAM UP
-            </a>
-            <a class="button" href="#">READ FAQs</a>
+            <a class="button is-danger" href="#">TEAM UP</a>
+            <a class="button is-warning" href="#">READ FAQs</a>
           </div>
           <iframe
-            class="is-hidden-mobile"
+            class="is-hidden-mobile m-4"
             src="https://discord.com/widget?id=707932021355315211&theme=dark&username=mrdotkg"
             width="320"
-            height="210"
+            height="260"
             allowtransparency="true"
             frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          />
         </div>
       </div>
       <div class="column">
-        <ul class="has-text-centered">
+        <ul class="schedule has-text-centered">
           <p
             class="has-background-black p-2"
             style="position: sticky; top: 0px"
           >
             Want to team-up for today's matches?
-            <a class="button is-danger is-small" href="#">Sign In First</a>
+            <a
+              class="button is-danger is-small"
+              href="https://discord.com/api/oauth2/authorize?client_id=820665887513247794&redirect_uri=https%3A%2F%2Faao.netlify.app%2F&response_type=code&scope=identify"
+            >
+              Sign In First
+            </a>
           </p>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO">
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO">
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO">
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO">
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
           </li>
           <li>
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
-            <img src="https://via.placeholder.com/150/FFDD57/000000?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+            <img src="https://via.placeholder.com/150?text=AAO" >
+          </li>
+        </ul>
+        <ul class="is-hidden faq">
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
+          </li>
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
+          </li>
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
+          </li>
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
+          </li>
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
+          </li>
+          <li>
+            <b-collapse
+              class="card container"
+              animation="slide"
+              aria-id="contentIdForA11y3"
+            >
+              <template #trigger="">
+                <div
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <p class="card-header-title">Component</p>
+                </div>
+              </template>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <a>#buefy</a>.
+                </div>
+              </div>
+            </b-collapse>
           </li>
         </ul>
       </div>
@@ -148,62 +295,7 @@ export default {
   mixins: [],
   data() {
     return {
-      data: [
-        {
-          id: 1,
-          first_name: "DOT",
-          last_name: "GHOST",
-          date: "NINJA",
-          gender: "KNIG",
-        },
-        {
-          id: 2,
-          first_name: "PAN",
-          last_name: "TIN",
-          date: "SEN",
-          gender: "GOL",
-        },
-        {
-          id: 3,
-          first_name: "GOU",
-          last_name: "TIH",
-          date: "NOJ",
-          gender: "LPK",
-        },
-        {
-          id: 4,
-          first_name: "KIJ",
-          last_name: "AWS",
-          date: "RTG",
-          gender: "NHJ",
-        },
-        {
-          id: 5,
-          first_name: "IJK",
-          last_name: "LKJ",
-          date: "WER",
-          gender: "GHJ",
-        },
-      ],
-      columns: [
-        {
-          field: "first_name",
-          // label: "P#1",
-        },
-        {
-          field: "last_name",
-          // label: "P#2",
-        },
-        {
-          field: "date",
-          // label: "P#3",
-          centered: true,
-        },
-        {
-          field: "gender",
-          // label: "P#4",
-        },
-      ],
+      activeTab: "team-up",
     }
   },
   beforeCreate() {},
